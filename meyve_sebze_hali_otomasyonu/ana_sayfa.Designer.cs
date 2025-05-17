@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             tabControl1 = new TabControl();
-            tabPage1 = new TabPage();
             tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
-            label1 = new Label();
             label2 = new Label();
+            tabPage3 = new TabPage();
             label3 = new Label();
+            tabPage1 = new TabPage();
+            textBox1 = new TextBox();
             tabControl1.SuspendLayout();
-            tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
+            tabPage1.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -52,17 +52,6 @@
             tabControl1.Size = new Size(756, 332);
             tabControl1.TabIndex = 0;
             // 
-            // tabPage1
-            // 
-            tabPage1.Controls.Add(label1);
-            tabPage1.Location = new Point(4, 29);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(748, 299);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "meyve";
-            tabPage1.UseVisualStyleBackColor = true;
-            // 
             // tabPage2
             // 
             tabPage2.Controls.Add(label2);
@@ -73,6 +62,15 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "sebze";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(400, 86);
+            label2.Name = "label2";
+            label2.Size = new Size(50, 20);
+            label2.TabIndex = 0;
+            label2.Text = "label2";
             // 
             // tabPage3
             // 
@@ -85,24 +83,6 @@
             tabPage3.Text = "donmuş meyveler";
             tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(372, 134);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(400, 86);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 0;
-            label2.Text = "label2";
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -111,6 +91,24 @@
             label3.Size = new Size(50, 20);
             label3.TabIndex = 0;
             label3.Text = "label3";
+            // 
+            // tabPage1
+            // 
+            tabPage1.Controls.Add(textBox1);
+            tabPage1.Location = new Point(4, 29);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(748, 299);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "meyve";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(442, 81);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 0;
             // 
             // ana_sayfa
             // 
@@ -121,23 +119,23 @@
             Name = "ana_sayfa";
             Text = "ana_sayfa";
             tabControl1.ResumeLayout(false);
-            tabPage1.ResumeLayout(false);
-            tabPage1.PerformLayout();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
             tabPage3.ResumeLayout(false);
             tabPage3.PerformLayout();
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private TabControl tabControl1;
-        private TabPage tabPage1;
         private TabPage tabPage2;
         private TabPage tabPage3;
-        private Label label1;
         private Label label2;
         private Label label3;
+        private TabPage tabPage1;
+        private TextBox textBox1;
     }
 }
