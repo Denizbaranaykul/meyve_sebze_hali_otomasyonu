@@ -131,5 +131,10 @@ namespace meyve_sebze_hali_otomasyonu
             kayýt_ol kayýt = new kayýt_ol();
             kayýt.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

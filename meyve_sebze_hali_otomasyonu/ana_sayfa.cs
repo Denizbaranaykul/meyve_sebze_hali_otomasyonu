@@ -16,5 +16,25 @@ namespace meyve_sebze_hali_otomasyonu
         {
             InitializeComponent();
         }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label82_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
