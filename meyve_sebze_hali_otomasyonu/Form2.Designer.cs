@@ -45,6 +45,8 @@
             label6 = new Label();
             label7 = new Label();
             button1 = new Button();
+            label8 = new Label();
+            label9 = new Label();
             SuspendLayout();
             // 
             // label76
@@ -193,7 +195,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            label7.Location = new Point(850, 52);
+            label7.Location = new Point(769, 119);
             label7.Name = "label7";
             label7.Size = new Size(132, 28);
             label7.TabIndex = 163;
@@ -202,18 +204,40 @@
             // button1
             // 
             button1.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            button1.Location = new Point(850, 231);
+            button1.Location = new Point(803, 236);
             button1.Name = "button1";
-            button1.Size = new Size(158, 95);
+            button1.Size = new Size(268, 95);
             button1.TabIndex = 164;
             button1.Text = "Onayla Ve Bitir";
             button1.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            label8.Location = new Point(150, 573);
+            label8.Name = "label8";
+            label8.Size = new Size(80, 25);
+            label8.TabIndex = 165;
+            label8.Text = "label8";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            label9.Location = new Point(928, 122);
+            label9.Name = "label9";
+            label9.Size = new Size(80, 25);
+            label9.TabIndex = 166;
+            label9.Text = "label9";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1083, 607);
+            Controls.Add(label9);
+            Controls.Add(label8);
             Controls.Add(button1);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -255,5 +279,7 @@
         private Label label6;
         private Label label7;
         private Button button1;
+        private Label label8;
+        private Label label9;
     }
 }
