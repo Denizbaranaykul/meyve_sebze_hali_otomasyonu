@@ -220,6 +220,7 @@
             checkedListBox1 = new CheckedListBox();
             lbl_toplam = new Label();
             label84 = new Label();
+            btn_sil = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
@@ -351,6 +352,7 @@
             button31.TabIndex = 52;
             button31.Text = "SEPETE EKLE";
             button31.UseVisualStyleBackColor = true;
+            button31.Click += button31_Click;
             // 
             // button30
             // 
@@ -360,6 +362,7 @@
             button30.TabIndex = 51;
             button30.Text = "SEPETE EKLE";
             button30.UseVisualStyleBackColor = true;
+            button30.Click += button30_Click;
             // 
             // button29
             // 
@@ -369,6 +372,7 @@
             button29.TabIndex = 50;
             button29.Text = "SEPETE EKLE";
             button29.UseVisualStyleBackColor = true;
+            button29.Click += button29_Click;
             // 
             // button28
             // 
@@ -378,6 +382,7 @@
             button28.TabIndex = 49;
             button28.Text = "SEPETE EKLE";
             button28.UseVisualStyleBackColor = true;
+            button28.Click += button28_Click;
             // 
             // label24
             // 
@@ -587,6 +592,7 @@
             button8.TabIndex = 24;
             button8.Text = "SEPETE EKLE";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button7
             // 
@@ -596,6 +602,7 @@
             button7.TabIndex = 23;
             button7.Text = "SEPETE EKLE";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button6
             // 
@@ -605,6 +612,7 @@
             button6.TabIndex = 22;
             button6.Text = "SEPETE EKLE";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button5
             // 
@@ -614,6 +622,7 @@
             button5.TabIndex = 21;
             button5.Text = "SEPETE EKLE";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -623,6 +632,7 @@
             button4.TabIndex = 20;
             button4.Text = "SEPETE EKLE";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -632,6 +642,7 @@
             button3.TabIndex = 19;
             button3.Text = "SEPETE EKLE";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -641,6 +652,7 @@
             button2.TabIndex = 18;
             button2.Text = "SEPETE EKLE";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // lbl_armut
             // 
@@ -878,6 +890,7 @@
             button35.TabIndex = 99;
             button35.Text = "SEPETE EKLE";
             button35.UseVisualStyleBackColor = true;
+            button35.Click += button35_Click;
             // 
             // button34
             // 
@@ -887,6 +900,7 @@
             button34.TabIndex = 98;
             button34.Text = "SEPETE EKLE";
             button34.UseVisualStyleBackColor = true;
+            button34.Click += button34_Click;
             // 
             // button33
             // 
@@ -896,6 +910,7 @@
             button33.TabIndex = 97;
             button33.Text = "SEPETE EKLE";
             button33.UseVisualStyleBackColor = true;
+            button33.Click += button33_Click;
             // 
             // button32
             // 
@@ -905,6 +920,7 @@
             button32.TabIndex = 96;
             button32.Text = "SEPETE EKLE";
             button32.UseVisualStyleBackColor = true;
+            button32.Click += button32_Click;
             // 
             // label27
             // 
@@ -1114,6 +1130,7 @@
             button11.TabIndex = 72;
             button11.Text = "SEPETE EKLE";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -1123,6 +1140,7 @@
             button12.TabIndex = 71;
             button12.Text = "SEPETE EKLE";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -1132,6 +1150,7 @@
             button13.TabIndex = 70;
             button13.Text = "SEPETE EKLE";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // button14
             // 
@@ -1141,6 +1160,7 @@
             button14.TabIndex = 69;
             button14.Text = "SEPETE EKLE";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -1150,6 +1170,7 @@
             button15.TabIndex = 68;
             button15.Text = "SEPETE EKLE";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -1159,6 +1180,7 @@
             button16.TabIndex = 67;
             button16.Text = "SEPETE EKLE";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
@@ -1168,6 +1190,7 @@
             button17.TabIndex = 66;
             button17.Text = "SEPETE EKLE";
             button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
             // 
             // lbl_fasulye
             // 
@@ -1217,6 +1240,7 @@
             button18.TabIndex = 61;
             button18.Text = "SEPETE EKLE";
             button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
             // 
             // pictureBox13
             // 
@@ -1404,6 +1428,7 @@
             button39.TabIndex = 99;
             button39.Text = "SEPETE EKLE";
             button39.UseVisualStyleBackColor = true;
+            button39.Click += button39_Click;
             // 
             // button38
             // 
@@ -1413,6 +1438,7 @@
             button38.TabIndex = 98;
             button38.Text = "SEPETE EKLE";
             button38.UseVisualStyleBackColor = true;
+            button38.Click += button38_Click;
             // 
             // button37
             // 
@@ -1422,6 +1448,7 @@
             button37.TabIndex = 97;
             button37.Text = "SEPETE EKLE";
             button37.UseVisualStyleBackColor = true;
+            button37.Click += button37_Click;
             // 
             // button36
             // 
@@ -1431,6 +1458,7 @@
             button36.TabIndex = 96;
             button36.Text = "SEPETE EKLE";
             button36.UseVisualStyleBackColor = true;
+            button36.Click += button36_Click;
             // 
             // label52
             // 
@@ -1640,6 +1668,7 @@
             button20.TabIndex = 72;
             button20.Text = "SEPETE EKLE";
             button20.UseVisualStyleBackColor = true;
+            button20.Click += button20_Click;
             // 
             // button21
             // 
@@ -1649,6 +1678,7 @@
             button21.TabIndex = 71;
             button21.Text = "SEPETE EKLE";
             button21.UseVisualStyleBackColor = true;
+            button21.Click += button21_Click;
             // 
             // button22
             // 
@@ -1658,6 +1688,7 @@
             button22.TabIndex = 70;
             button22.Text = "SEPETE EKLE";
             button22.UseVisualStyleBackColor = true;
+            button22.Click += button22_Click;
             // 
             // button23
             // 
@@ -1667,6 +1698,7 @@
             button23.TabIndex = 69;
             button23.Text = "SEPETE EKLE";
             button23.UseVisualStyleBackColor = true;
+            button23.Click += button23_Click;
             // 
             // button24
             // 
@@ -1676,6 +1708,7 @@
             button24.TabIndex = 68;
             button24.Text = "SEPETE EKLE";
             button24.UseVisualStyleBackColor = true;
+            button24.Click += button24_Click;
             // 
             // button25
             // 
@@ -1685,6 +1718,7 @@
             button25.TabIndex = 67;
             button25.Text = "SEPETE EKLE";
             button25.UseVisualStyleBackColor = true;
+            button25.Click += button25_Click;
             // 
             // button26
             // 
@@ -1694,6 +1728,7 @@
             button26.TabIndex = 66;
             button26.Text = "SEPETE EKLE";
             button26.UseVisualStyleBackColor = true;
+            button26.Click += button26_Click;
             // 
             // lbl_portakal_suyu
             // 
@@ -1743,6 +1778,7 @@
             button27.TabIndex = 61;
             button27.Text = "SEPETE EKLE";
             button27.UseVisualStyleBackColor = true;
+            button27.Click += button27_Click;
             // 
             // pictureBox25
             // 
@@ -1948,6 +1984,7 @@
             button40.TabIndex = 148;
             button40.Text = "SEPETE EKLE";
             button40.UseVisualStyleBackColor = true;
+            button40.Click += button40_Click;
             // 
             // pictureBox37
             // 
@@ -2081,6 +2118,7 @@
             button45.TabIndex = 123;
             button45.Text = "SEPETE EKLE";
             button45.UseVisualStyleBackColor = true;
+            button45.Click += button45_Click;
             // 
             // button46
             // 
@@ -2090,6 +2128,7 @@
             button46.TabIndex = 122;
             button46.Text = "SEPETE EKLE";
             button46.UseVisualStyleBackColor = true;
+            button46.Click += button46_Click;
             // 
             // button47
             // 
@@ -2099,6 +2138,7 @@
             button47.TabIndex = 121;
             button47.Text = "SEPETE EKLE";
             button47.UseVisualStyleBackColor = true;
+            button47.Click += button47_Click;
             // 
             // button48
             // 
@@ -2108,6 +2148,7 @@
             button48.TabIndex = 120;
             button48.Text = "SEPETE EKLE";
             button48.UseVisualStyleBackColor = true;
+            button48.Click += button48_Click;
             // 
             // button49
             // 
@@ -2117,6 +2158,7 @@
             button49.TabIndex = 119;
             button49.Text = "SEPETE EKLE";
             button49.UseVisualStyleBackColor = true;
+            button49.Click += button49_Click;
             // 
             // button50
             // 
@@ -2126,6 +2168,7 @@
             button50.TabIndex = 118;
             button50.Text = "SEPETE EKLE";
             button50.UseVisualStyleBackColor = true;
+            button50.Click += button50_Click;
             // 
             // button51
             // 
@@ -2135,6 +2178,7 @@
             button51.TabIndex = 117;
             button51.Text = "SEPETE EKLE";
             button51.UseVisualStyleBackColor = true;
+            button51.Click += button51_Click;
             // 
             // lbl_bzelye_konserve
             // 
@@ -2182,6 +2226,7 @@
             button52.TabIndex = 112;
             button52.Text = "SEPETE EKLE";
             button52.UseVisualStyleBackColor = true;
+            button52.Click += button52_Click;
             // 
             // pictureBox40
             // 
@@ -2272,12 +2317,13 @@
             button9.TabIndex = 48;
             button9.Text = "Ödeme Ekranına Git";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // label25
             // 
             label25.AutoSize = true;
             label25.Font = new Font("Verdana", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            label25.Location = new Point(885, 36);
+            label25.Location = new Point(885, 1);
             label25.Name = "label25";
             label25.Size = new Size(93, 28);
             label25.TabIndex = 47;
@@ -2286,7 +2332,7 @@
             // checkedListBox1
             // 
             checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(839, 79);
+            checkedListBox1.Location = new Point(839, 44);
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(301, 466);
             checkedListBox1.TabIndex = 42;
@@ -2295,7 +2341,7 @@
             // 
             lbl_toplam.AutoSize = true;
             lbl_toplam.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            lbl_toplam.Location = new Point(1028, 568);
+            lbl_toplam.Location = new Point(1027, 513);
             lbl_toplam.Name = "lbl_toplam";
             lbl_toplam.Size = new Size(54, 25);
             lbl_toplam.TabIndex = 168;
@@ -2305,17 +2351,29 @@
             // 
             label84.AutoSize = true;
             label84.Font = new Font("Verdana", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            label84.Location = new Point(869, 565);
+            label84.Location = new Point(868, 510);
             label84.Name = "label84";
             label84.Size = new Size(132, 28);
             label84.TabIndex = 167;
             label84.Text = "Toplam : ";
+            // 
+            // btn_sil
+            // 
+            btn_sil.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btn_sil.Location = new Point(839, 555);
+            btn_sil.Name = "btn_sil";
+            btn_sil.Size = new Size(301, 44);
+            btn_sil.TabIndex = 169;
+            btn_sil.Text = "sepetten çıkar";
+            btn_sil.UseVisualStyleBackColor = true;
+            btn_sil.Click += btn_sil_Click;
             // 
             // ana_sayfa
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1179, 665);
+            Controls.Add(btn_sil);
             Controls.Add(lbl_toplam);
             Controls.Add(tabControl1);
             Controls.Add(label84);
@@ -2576,5 +2634,6 @@
         private Label label79;
         private Label lbl_toplam;
         private Label label84;
+        private Button btn_sil;
     }
 }
